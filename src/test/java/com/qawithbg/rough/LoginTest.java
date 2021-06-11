@@ -15,7 +15,7 @@ public class LoginTest {
 		zoho.goToCRM();
 		AccountsHomePage account = Page.menu.goToAccounts();
 		CreateAccountsPage cap = account.gotoCreateAccounts();
-		cap.createAccount("Yves Vickers","");
+		
 	}
 
 }
