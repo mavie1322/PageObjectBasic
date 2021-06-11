@@ -14,7 +14,7 @@ public class LoginPage extends Page {
 		type("email_CSS",username);
 		click("clickBtn_CSS");
 		type("password_CSS",password);
-		click("signBtn_CSS");
+		click("clickBtn_CSS");
 		return new ZohoAppPage();	
 	}
 	
